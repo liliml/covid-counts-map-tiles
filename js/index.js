@@ -133,7 +133,7 @@ const colors = [
 const legend = document.getElementById('legend');
 
 const source =
-'<p><b>Sources:</b></p><p style="text-align: left; font-size:10pt"><a href="https://data.census.gov/table/ACSDP5Y2018.DP05?g=0100000US$050000&d=ACS+5-Year+Estimates+Data+Profiles&hidePreview=true">ACS 5 Year Estimates 2018 for Calculating COVID Rates</a></p><p style="text-align: left; font-size:10pt"><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html">US Census Bureau Data for US County Shapefiles</a></p>';
+'<p><b>Sources:</b></p><p style="text-align: left; font-size:10pt"><a href="https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live">NYT Data for COVID Case and Death Counts</a></p><p style="text-align: left; font-size:10pt"><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html">US Census Bureau Data for US County Shapefiles</a></p>';
 
 legend.innerHTML = "<b>2020 COVID Case Count in US Counties</b>";
 
